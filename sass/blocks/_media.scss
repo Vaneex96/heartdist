@@ -1,0 +1,157 @@
+@media (max-width: 950px) {
+  .header {
+  }
+  ////////////////////////
+  //   .advantages {
+  //     &__icons {
+  //       width: 760px;
+  //     }
+  //   }
+
+  .reviews hr {
+    width: 0;
+  }
+
+  .advantages__icons {
+    width: auto;
+  }
+
+  .reviews-item {
+    margin-top: 70px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: normal;
+    align-items: flex-start;
+    width: 0;
+    min-height: 188px;
+  }
+
+  .catalog-item:nth-child(3) {
+    margin-right: 20px;
+  }
+
+  .catalog-item:nth-child(5) {
+    margin: 0 20px 20px 0px;
+  }
+
+  .reviews-item__descr {
+    line-height: normal;
+    margin-top: 19px;
+    width: 350px;
+    min-height: 152px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0d0d0d;
+  }
+}
+////////////////////////////////////////////////////
+@media (max-width: 725px) {
+  .reviews-item__img {
+    margin-right: 15px;
+    width: 80px;
+  }
+
+  .catalog__tabs {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 638px) {
+  .catalog__content_active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .catalog-item:nth-child(3) {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .catalog-item:nth-child(5) {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .advantages__icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__official span {
+    font-size: 14px;
+  }
+
+  .header__official {
+    font-size: 9px;
+  }
+
+  .header__phone {
+    font-size: 13px;
+  }
+
+  .promo__header {
+    font-size: 25px;
+  }
+  .promo__subheader {
+    font-size: 12px;
+  }
+
+  .promo__wrapper {
+    align-items: center;
+  }
+
+  .promo__icons {
+    justify-content: center;
+    margin-top: 53px;
+  }
+
+  .title_left {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+  }
+  .consultation__descr {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .feed-form {
+    align-items: center;
+  }
+}
+
+@media (max-width: 464px) {
+  .reviews-item__img {
+    margin-right: 15px;
+    width: 38px;
+  }
+
+  .reviews-item__descr {
+    width: 300px;
+    min-height: 152px;
+    font-size: 13px;
+  }
+  .footer__info {
+    width: 230px;
+    height: 135px;
+    padding: 10px 0 0 0;
+  }
+  .footer__address {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 4px;
+  }
+  .footer__phone {
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .footer__social-item img {
+    height: 13px;
+  }
+
+  .footer__social-item {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+  }
+}
